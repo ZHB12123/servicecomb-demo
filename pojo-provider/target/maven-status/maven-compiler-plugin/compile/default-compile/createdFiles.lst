@@ -1,0 +1,4 @@
+org\apache\servicecomb\samples\pojo\Compute.class
+org\apache\servicecomb\samples\pojo\provider\PojoProviderMain.class
+org\apache\servicecomb\samples\pojo\provider\HelloImpl.class
+org\apache\servicecomb\samples\pojo\provider\CodeFirstComputeImpl.class

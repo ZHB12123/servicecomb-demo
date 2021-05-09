@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pojo-consumer" />
+        <module name="pojo-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pojo-consumer" target="1.8" />
+      <module name="pojo-provider" target="1.8" />
+      <module name="pojo-sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pojo-consumer" options="-parameters -Werror -Xlint:all -Xlint:-classfile -Xlint:-processing" />
+      <module name="pojo-provider" options="-parameters -Werror -Xlint:all -Xlint:-classfile -Xlint:-processing" />
+    </option>
+  </component>
+</project>
